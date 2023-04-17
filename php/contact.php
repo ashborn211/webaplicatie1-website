@@ -14,16 +14,14 @@
 </header>
 
 <main>
-<?php
-        require_once('customersupport.php');
-    ?>
+
 
     <div class="flex-container">
-        <div><a href="" target="_blank" rel="noopener noreferrer"><img src="../contact-img/Instagram_logo_2022.svg.png" alt="instagram"></a></div>
-        <div><a href="" target="_blank" rel="noopener noreferrer"><img src="../contact-img/fb_icon_325x325.png" alt="facebook" ></a></div>
-        <div><a href="" target="_blank" rel="noopener noreferrer"><img src="../contact-img/gmail.png" alt="gmail" ></a></div>
-        <div><a href="" target="_blank" rel="noopener noreferrer"><img src="../contact-img/Twitter-logo.svg.png" alt="twitter"></a></div>
-        <div><a href="|" target="_blank" rel="noopener noreferrer"><img src="../contact-img/outlook.png" alt="outlook"></a></div>
+        <div><a href="" target="_blank" rel="noopener noreferrer"><img src="../contact-img/Instagram_logo_2022.svg.jpg" alt="instagram"></a></div>
+        <div><a href="" target="_blank" rel="noopener noreferrer"><img src="../contact-img/fb_icon_325x325.jpg" alt="facebook" ></a></div>
+        <div><a href="" target="_blank" rel="noopener noreferrer"><img src="../contact-img/gmail.jpg" alt="gmail" ></a></div>
+        <div><a href="" target="_blank" rel="noopener noreferrer"><img src="../contact-img/Twitter-logo.svg.jpg" alt="twitter"></a></div>
+        <div><a href="|" target="_blank" rel="noopener noreferrer"><img src="../contact-img/outlook.jpg" alt="outlook"></a></div>
         
     </div>
 

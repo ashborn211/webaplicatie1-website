@@ -25,7 +25,6 @@ footer{
   float: left;
   color: whitesmoke;
   padding: 25px;
-  font-size: xx-large;
 }
 
 
@@ -58,15 +57,14 @@ ul {
 
   .flex-container {
     display: flex;
-    background-color: #434343;  
+    background-color: whitesmoke;  
     justify-content: space-around;
     justify-items: center;
-    height: 300px;
     margin-top: 100px;
     }
   
   .flex-container > div {
-    background-color: #434343;
+    background-color: whitesmoke;
     margin: 10px;
     padding: 20px;
     font-size: 30px;
