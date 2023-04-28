@@ -20,6 +20,12 @@
 <head>
     <title>ADMINDELETE</title>
     <link rel="stylesheet" href="../../css/style.css">
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="../../js/button.js"></script>
+
 </head>
 
 <body>
@@ -33,7 +39,8 @@
 </header>
 
 
-<main>
+<main style="height: 100vh; width: 100vh;">
+
 <td>
     <form action="" method="post">
             <p>
@@ -41,7 +48,7 @@
                <input type="text" name="id" id="">
 
             </p>
-            <input type="submit" value="Submit" name="submit">
+            <input  type="submit" value="Submit" name="submit" onClick='return confirmSubmit()'>
 
         </form>
 </td>

@@ -2,8 +2,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>thuisbezorgt</title>
-    <link rel="stylesheet" href="../css/style.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bootstrap 4 Responsive Layout</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
 <body>
@@ -17,7 +21,7 @@
 </header>
 
 
-<main>
+<main style="height: 100%; width: 100%;">
 
     <?php
         require_once('inloggenhelper.php');
@@ -41,5 +45,3 @@
 
 
 </html>
-
->>>>>>> 6369c5737342923fb9f31b252dbe7c476d9a9523

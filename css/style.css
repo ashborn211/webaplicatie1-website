@@ -4,20 +4,11 @@ body{
    padding: 0;
 }
 
-header{
-  width: 100%;
-  height: 100px;
-  background-color: lightslategrey;
-}
-
-main{
-    width: 100%;
-    height: 1100px;
-}
-
 footer{
+  position: fixed;
+  bottom: 0;
   width: 100%;
-  height: 100px;
+  height: 10%;
   background-color: black;
 }
 
@@ -55,26 +46,8 @@ ul {
   }
 
 
-  .flex-container {
-    display: flex;
-    background-color: whitesmoke;  
-    justify-content: space-around;
-    justify-items: center;
-    margin-top: 100px;
-    }
-  
-  .flex-container > div {
-    background-color: whitesmoke;
-    margin: 10px;
-    padding: 20px;
-    font-size: 30px;
-    
-  }
-
 table{
   border: 1px solid;
 }
-
-
 
 
