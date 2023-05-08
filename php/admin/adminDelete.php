@@ -1,10 +1,18 @@
 <?php
+/*hier word er gekeken of er een connectie is met de database en dat je de juiste inloggegevens gebruikt hebt voor admin rechten*/
+
  include_once('../db.php');
+ $sql = "SELECT id, naam FROM menu ORDER BY id ASC";
+$stmt = $connect->prepare($sql);
+$stmt -> FetchAll(PDO::FETCH_ASSOC);
+$stmt->execute();
+$result = $stmt ->FetchAll(PDO::FETCH_ASSOC);
  include_once('../inloggenhelper.php');
  if(isset($_SESSION['user_logged_in']) && $_SESSION['user_logged_in'] == true){
   header('location: ../index.php');
  }
  
+ /*als je op submit klikt dat verwijdert hij te tabel met de ID die je hebt aangegeven */
    if(isset($_POST["submit"])){
         $id = $_POST['id'];
  
@@ -27,7 +35,22 @@
 <script src="../../js/button.js"></script>
 
 </head>
-
+<main>
+<table>
+        <?php
+        
+             foreach($result as $data) {
+               
+               ?>
+                <tr>
+               <td><?php echo $data['id']; ?> </td>
+               <td><?php echo $data['naam']; ?> </td>
+                </tr>
+                <?php
+              }
+              ?>
+            </table>
+</main>
 <body>
     
 

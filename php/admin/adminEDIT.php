@@ -1,12 +1,13 @@
 
 <?php
+/*hier word er gekeken of er een connectie is met de database en dat je de juiste inloggegevens gebruikt hebt voor admin rechten*/
    include_once('../db.php');
    include_once('../inloggenhelper.php');
    if(isset($_SESSION['user_logged_in']) && $_SESSION['user_logged_in'] == true){
     header('location: ../index.php');
    }
 
-
+/*dit zorgt ervoor dat als je op submit drukt dat de database word bewerkt */
      if(isset($_POST["submit"])){
         $naam = $_POST['naam'];
         $prijs = $_POST['prijs'];
