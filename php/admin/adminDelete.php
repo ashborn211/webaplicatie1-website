@@ -35,7 +35,19 @@ $result = $stmt ->FetchAll(PDO::FETCH_ASSOC);
 <script src="../../js/button.js"></script>
 
 </head>
-<main>
+
+<body>
+    
+
+<header>
+    <?php
+        include_once('headeradmin.php');
+    ?>
+
+</header>
+
+
+<main style="height: 100vh; width: 100vh;">
 <table>
         <?php
         
@@ -50,20 +62,6 @@ $result = $stmt ->FetchAll(PDO::FETCH_ASSOC);
               }
               ?>
             </table>
-</main>
-<body>
-    
-
-<header>
-    <?php
-        include_once('headeradmin.php');
-    ?>
-
-</header>
-
-
-<main style="height: 100vh; width: 100vh;">
-
 <td>
     <form action="" method="post">
             <p>

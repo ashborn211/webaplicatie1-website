@@ -14,7 +14,7 @@
             </div>
             <div class="navbar-nav ms-auto">              	
                 <a href="login.php" class="nav-item nav-link">Login</a>
-              	<a href="#" class="nav-item nav-link">Register</a>
+              	<a href="register.php" class="nav-item nav-link">Register</a>
             </div>
         </div>
     </div>
