@@ -27,7 +27,7 @@
         require_once('inloggenhelper.php');
         
     ?>
-    <form action="admin/adminCREATE.php" method="post">
+    <form action="" method="post">
         <input type="email" name="email" id="" placeholder="email">
         <input type="password" name="password" id="">
         <input type="submit" value="login">
